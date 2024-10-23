@@ -10030,10 +10030,11 @@ h6,
 .body-custom-footer {
   background: linear-gradient(-45deg, #046dfc, #1261cb, #21549a, #3d597e,#5c718d
     , #94aed1);
-  background-size: 400% 400%;
+  background-size: 400% 200%;
   animation: gradient 15s ease infinite;
   height: 33vh;
 }
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
