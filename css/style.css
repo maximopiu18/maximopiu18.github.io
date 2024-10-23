@@ -1909,9 +1909,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #62f7df;
+  border-color: #1a5d96;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(26, 93, 150, 0.25);
 }
 
 .form-control::placeholder {
@@ -9557,6 +9557,9 @@ button.bg-dark:focus {
 .text-primary-custom {
   color: #1a5d96 !important;
 }
+.text-primary-blue {
+  color: #1a5d96 !important;
+}
 
 a.text-primary:hover, a.text-primary:focus {
   color: #078571 !important;
@@ -9836,7 +9839,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #1a5d96;
 }
 
 @media (max-width: 991.98px) {
@@ -10024,6 +10027,13 @@ h6,
   height: 100vh;
 }
 
+.body-custom-footer {
+  background: linear-gradient(-45deg, #046dfc, #1261cb, #21549a, #3d597e,#5c718d
+    , #94aed1);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 33vh;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
